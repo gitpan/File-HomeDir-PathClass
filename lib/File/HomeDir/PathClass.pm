@@ -12,7 +12,7 @@ use warnings;
 
 package File::HomeDir::PathClass;
 BEGIN {
-  $File::HomeDir::PathClass::VERSION = '1.101610';
+  $File::HomeDir::PathClass::VERSION = '1.101611';
 }
 # ABSTRACT: File::HomeDir returning Path::Class objects
 
@@ -48,7 +48,7 @@ File::HomeDir::PathClass - File::HomeDir returning Path::Class objects
 
 =head1 VERSION
 
-version 1.101610
+version 1.101611
 
 =head1 SYNOPSIS
 

@@ -21,7 +21,7 @@ name: File-HomeDir-PathClass
 provides:
   File::HomeDir::PathClass:
     file: lib/File/HomeDir/PathClass.pm
-    version: 1.101610
+    version: 1.101611
 recommends: {}
 requires:
   File::HomeDir: 0
@@ -31,8 +31,8 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=File-HomeDir-PathClass
   homepage: http://search.cpan.org/dist/File-HomeDir-PathClass/
-  repository: http://github.com/jquelin/file-himedir-pathclass
-version: 1.101610
+  repository: http://github.com/jquelin/file-homedir-pathclass
+version: 1.101611
 x_Dist_Zilla:
   plugins:
     -
