@@ -1,22 +1,22 @@
-# 
+#
 # This file is part of File-HomeDir-PathClass
-# 
+#
 # This software is copyright (c) 2010 by Jerome Quelin.
-# 
+#
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
-# 
+#
 use 5.010;
 use strict;
 use warnings;
 
 package File::HomeDir::PathClass;
 BEGIN {
-  $File::HomeDir::PathClass::VERSION = '1.101611';
+  $File::HomeDir::PathClass::VERSION = '1.112000';
 }
 # ABSTRACT: File::HomeDir returning Path::Class objects
 
-use File::HomeDir ();
+use File::HomeDir 0.93 ();
 use Path::Class;
 use Sub::Exporter -setup => {
     exports => [ @File::HomeDir::EXPORT_OK ],
@@ -48,7 +48,7 @@ File::HomeDir::PathClass - File::HomeDir returning Path::Class objects
 
 =head1 VERSION
 
-version 1.101611
+version 1.112000
 
 =head1 SYNOPSIS
 
@@ -99,9 +99,7 @@ Otherwise, functions are available as class methods, called as:
 
 In this case, one doesn't need to import anything during module use-age.
 
-=for Pod::Coverage home
-    ^my_
-    ^users_
+=for Pod::Coverage home my_.* users_.*
 
 =head1 SEE ALSO
 
@@ -131,7 +129,7 @@ L<http://github.com/jquelin/file-homedir-pathclass.git>.
 
 =head1 AUTHOR
 
-  Jerome Quelin
+Jerome Quelin
 
 =head1 COPYRIGHT AND LICENSE
 
